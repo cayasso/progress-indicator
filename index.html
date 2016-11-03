@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./style.css" rel="stylesheet" type="text/css">
+    <title>Jonathan Brumley</title>
+  </head>
+  <body>
+    <article>
+      <h1>Account</h1>
+      <a id="progress-link" onclick="progress.toggle(event)" href="#">Toggle progress indicator</a>
+      <div id="progress" class="overlay hide">
+      	<div class="popup">
+      		<header>Your Progress</header>
+      		<div class="content">
+            <div class="progress">
+              <span class="progress-label">Reached:</span>
+              <span class="progress-bar">
+                <span class="progress-status progress-animate">
+                  <span class="progress-indicator"><span class="chevron top"></span> </br> $56</span>
+                </span>
+              </span>
+              <span class="progress-target">Target $125</span>
+            </div>
+            <p><i>i</i>You need $69 more to reach your target.</p>
+      		</div>
+      	</div>
+      </div>
+    </article>
+    <script type="text/javascript" src="./progress.js"></script>
+  </body>
+</html>
