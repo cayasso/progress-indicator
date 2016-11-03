@@ -23,6 +23,10 @@ In your HTML just do this for showing the indicator.
 <a onclick="indicator.toggle(event)" href="#">Show progress indicator</a>
 ```
 
+## Browser support
+
+I have only tested it in Chrome and Safari on a Mac computer, the widget should work in modern browser, so please use accordingly.
+
 ## License
 (The MIT License)
 
