@@ -20,7 +20,7 @@ indicator.toggle(event);
 In your HTML just do this for showing the indicator.
 
 ```html
-<a onclick="amountIndicator.toggle(event)" href="#">Show progress indicator</a>
+<a onclick="indicator.toggle(event)" href="#">Show progress indicator</a>
 ```
 
 ## License
