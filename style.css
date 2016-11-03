@@ -105,6 +105,7 @@ article {
   background: #EEE;
   height: 20px;
   text-align: left;
+  padding-right: 10px;
 }
 
 .progress-label {
@@ -150,7 +151,6 @@ article {
 }
 
 .progress-animate {
-  width: 56%;
   -webkit-animation: width .5s ease-in;
   animation: width .5s ease-in;
 }

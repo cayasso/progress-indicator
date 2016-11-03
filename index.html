@@ -9,7 +9,7 @@
   <body>
     <article>
       <h1>Account</h1>
-      <a id="progress-link" onclick="progress.toggle(event)" href="#">Toggle progress indicator</a>
+      <a id="progress-link" onclick="progress(56).toggle(event)" href="#">Toggle progress indicator</a>
       <div id="progress" class="overlay hide">
       	<div class="popup">
       		<header>Your Progress</header>
@@ -18,7 +18,7 @@
               <span class="progress-label">Reached:</span>
               <span class="progress-bar">
                 <span class="progress-status progress-animate">
-                  <span class="progress-indicator"><span class="chevron top"></span> </br> $56</span>
+                  <span class="progress-indicator"><span class="chevron top"></span> </br> <span class="indicator-value"></span></span>
                 </span>
               </span>
               <span class="progress-target">Target $125</span>
